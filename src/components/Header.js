@@ -7,7 +7,7 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY > 400) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -22,10 +22,10 @@ function Header() {
     <header className={`"shadow-lg fixed w-full z-50 transition-colors duration-300 ease-in-out ${
       isScrolled ? 'bg-stone-600 ' : 'bg-transparent'
     }`}>
-      <div className="container mx-auto py-4 px-6 flex justify-between items-center">
+      <div className="container mx-auto py-2 px-6 flex justify-between items-center">
         <div className="flex items-center">
           <img src={logo} alt="Logo" className="h-12 w-12 object-contain bg-transparent"/>
-          <a href='home' className="text-2xl pl-3 text-white font-raleway font-light hover:text-blue-500">Sung Min Sim</a> {/*fix spacing*/}
+          <a href='/' className="text-2xl pl-3 text-white font-raleway font-light hover:text-blue-500">Sung Min Sim</a> {/*fix spacing*/}
         </div>
         <nav>
           <ul className="flex space-x-6">

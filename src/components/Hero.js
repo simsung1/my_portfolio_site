@@ -2,7 +2,6 @@ import React from 'react';
 import spaceHalo from "../assets/spaceHalo.jpeg";
 import { ChevronDownIcon } from '@heroicons/react/16/solid';
 
-
 function Hero() {
   return (
     <section className="flex flex-col items-center justify-center h-screen bg-black bg-contain bg-center bg-no-repeat" style={{ backgroundImage: `url(${spaceHalo})` }}>

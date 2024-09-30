@@ -8,7 +8,8 @@ module.exports = {
       fontFamily: {
         'raleway': ['Raleway', 'sans-serif'],
         'fredoka': ['Fredoka', 'sans-serif'],
-      }
+        'rubik': ['Rubik', 'sans-serif'],
+      },
     },
   },
   plugins: [],
